@@ -25,4 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# Team-364-Frontend
+# Afro-cast
+
+Afro-Casts is  aproposed podcast streaming platform that aims to connect African podcast content creators to the people of Africa.This platform will host podcasts by Africans for Africans in every corner of the world.The user swill have an option of choosing content from different countries,topic categories as well as creating playlists and setting reminder sand notifications from their favourite channels.Thec ontent  creators will have access to an eat looking and well marketed platform that allows them to easily share their podcasts through their host of choice for free to the audience.Our platform will also have an option for content creators to host free hour long LIVE sessions(dailylimit),with an option to extend the time limit on a pay perusagerate.With agrowing audience,our platform will allow forgeot aggedadsand give the content creators a chance to monetize their content by placing timed audio ads on their podcasts
