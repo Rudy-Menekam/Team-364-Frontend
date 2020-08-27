@@ -1,5 +1,7 @@
 # FontEnd
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/31c4a6a5c8a1494aa18b810907b8a2ec)](https://app.codacy.com/gh/BuildForSDGCohort2/Team-364-Frontend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/Team-364-Frontend&utm_campaign=Badge_Grade_Dashboard)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 
 ## Development server
