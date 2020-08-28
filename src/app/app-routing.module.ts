@@ -12,7 +12,6 @@ const routes: Routes = [
   { path: "register", component: RegisterComponent},
   { path: "single-podcast", component: SinglePosdcastComponent},
   { path: "podcast-categories", component: PosdcastsCategoriesComponent},
-  { path: "podcast-list", component: PosdcastsListComponent},
 ];
 
 @NgModule({
