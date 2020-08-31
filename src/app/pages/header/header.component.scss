@@ -1,0 +1,59 @@
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+.left-menu{
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.menu a{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.right-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    padding: 0 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.signInBtn{
+    background: #0270d9;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: smaller;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
