@@ -11,6 +11,8 @@ import { ChannelsComponent } from './pages/channels/channels.component';
 import { SinglePosdcastComponent } from './pages/single-posdcast/single-posdcast.component';
 import { PosdcastsListComponent } from './pages/posdcasts-list/posdcasts-list.component';
 import { PosdcastsCategoriesComponent } from './pages/posdcasts-categories/posdcasts-categories.component';
+import { ServiceWorkerModule } from "@angular/service-worker";
+import { environment } from "../environments/environment";
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { PosdcastsCategoriesComponent } from './pages/posdcasts-categories/posdc
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register("ngsw-worker.js", { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
