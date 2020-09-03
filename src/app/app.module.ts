@@ -13,6 +13,7 @@ import { PosdcastsListComponent } from './pages/posdcasts-list/posdcasts-list.co
 import { PosdcastsCategoriesComponent } from './pages/posdcasts-categories/posdcasts-categories.component';
 import { ServiceWorkerModule } from "@angular/service-worker";
 import { environment } from "../environments/environment";
+import { FeaturesComponent } from './features/features.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { environment } from "../environments/environment";
     ChannelsComponent,
     SinglePosdcastComponent,
     PosdcastsListComponent,
-    PosdcastsCategoriesComponent
+    PosdcastsCategoriesComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,
