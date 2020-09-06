@@ -1,0 +1,16 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.searchbar {
+  border-radius: 0px;
+  margin: auto;
+  max-width: 300px;
+}
+
+.search_input {
+  color: gray;
+  background-color: #131d2b;
+}
+/*# sourceMappingURL=channels.component.css.map */

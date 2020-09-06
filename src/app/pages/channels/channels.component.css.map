@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU;CACzB;;AACD,AAAA,UAAU,CAAA;EACN,aAAa,EAAE,GAAG;EAClB,MAAM,EAAC,IAAI;EACX,SAAS,EAAC,KAAK;CAClB;;AACD,AAAA,aAAa,CAAA;EACT,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "channels.component.scss"
+    ],
+    "names": [],
+    "file": "channels.component.css"
+}
