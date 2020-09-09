@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './pages/header/header.component';
@@ -14,6 +14,8 @@ import { PosdcastsListComponent } from './pages/posdcasts-list/posdcasts-list.co
 import { PosdcastsCategoriesComponent } from './pages/posdcasts-categories/posdcasts-categories.component';
 import { ServiceWorkerModule } from "@angular/service-worker";
 import { environment } from "../environments/environment";
+import { FeaturesComponent } from './features/features.component';
+
 
 @NgModule({
   declarations: [
@@ -25,11 +27,13 @@ import { environment } from "../environments/environment";
     ChannelsComponent,
     SinglePosdcastComponent,
     PosdcastsListComponent,
-    PosdcastsCategoriesComponent
+    PosdcastsCategoriesComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
     ServiceWorkerModule.register("ngsw-worker.js", { enabled: environment.production })
   ],
   providers: [],

@@ -1,1 +1,35 @@
-<p>posdcasts-list works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search Podcasts" aria-label="Search Podcasts"
+                    aria-describedby="search">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary bg-light" type="button" id="search">
+                        <fa-icon [icon]="faSearch" id="search-icon" size="lg"></fa-icon>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="d-inline-flex" *ngFor="let podcast of podcasts">
+        <div>
+            <div class="card" style="width: 10em; margin:5px;">
+                <img src="assets/images/podcast-image.jpg" class="card-img-top" alt="podcast">
+            </div>
+            <div >
+                <h6 class="text-white font-weight-bold ml-2">Podcast title</h6>
+                <div class="d-inline-flex align-items-baseline mt-2 ml-2">
+                    <fa-icon [icon]="headphones" id="headphone-icon" size="md" style="color:white"></fa-icon>
+                    <span class="card-subtitle mb-2 text-muted">1000</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
